@@ -1,0 +1,14 @@
+channels:
+  - anaconda
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pysam=0.17.0
+  - tqdm==4.62.3
+  - pandas
+  - numpy
+  - pip
+  - Cython
+  - pip:
+    - levenshtein==0.18.1
